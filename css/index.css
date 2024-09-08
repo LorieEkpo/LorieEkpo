@@ -1,0 +1,33 @@
+:root {
+  --dark: #322E18;
+  --light: #fffaeb;
+  --primary: #ffbf00;
+  --secondary: #44344f;
+  --accent: #17dac6
+  --lightPrimary: #ffcc33
+  --lightSecondary: #750099
+}
+
+body {
+  background-color: var(--light);
+}
+
+accent{
+  color: var(--accent)
+}
+
+h1 {
+  color: var(--secondary);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: var(--primary);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: var(--secondary)
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+}
