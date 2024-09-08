@@ -30,7 +30,12 @@ h2 {
 }
 
 p {
-  color: var(--secondary)
+  color: var(--dark);
   font-family: var(--paragraphFont), monospace;
   font-size: 20px;
+}
+
+ul {
+  color: var(--dark);
+  font-family: var(--paragraphFont), monospace;
 }
