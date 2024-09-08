@@ -3,9 +3,12 @@
   --light: #fffaeb;
   --primary: #ffbf00;
   --secondary: #44344f;
-  --accent: #17dac6
-  --lightPrimary: #ffcc33
-  --lightSecondary: #750099
+  --accent: #17dac6;
+  --lightPrimary: #ffcc33;
+  --lightSecondary: #750099;
+
+  --headerFont: Poppins;
+  --paragraphFont: "Roboto Mono";
 }
 
 body {
@@ -18,16 +21,16 @@ accent{
 
 h1 {
   color: var(--secondary);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--headerFont), Helvetica, sans-serif;
 }
 
 h2 {
   color: var(--primary);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--headerFont), Helvetica, sans-serif;
 }
 
 p {
   color: var(--secondary)
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: var(--paragraphFont), monospace;
   font-size: 20px;
 }
