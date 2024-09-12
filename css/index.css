@@ -1,3 +1,8 @@
+/*
+  mono fallbacks: "Courier New", monospace
+  poppins fallbacks: Helvetica, sans-serif
+*/
+
 :root {
   --dark: #322E18;
   --light: #fffaeb;
@@ -7,35 +12,100 @@
   --lightPrimary: #ffcc33;
   --lightSecondary: #750099;
 
-  --headerFont: Poppins;
-  --paragraphFont: "Roboto Mono";
+  --headerFont: "Poppins",  "Courier New", monospace;
+  --paragraphFont: "Roboto Mono", Helvetica, sans-serif;
+  --bold: 700;
 }
 
 body {
   background-color: var(--light);
 }
+a{
+  font-family: var(--paragraphFont);
+}
+a:link {
+  color: var(--secondary);
+}
 
-accent{
-  color: var(--accent)
+a:visited {
+  color: var(--lightSecondary);
+}
+
+a:hover {
+  color: var(--lightPrimary);
+}
+
+a:active {
+  color: var(--primary);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: var(--primary);
+}
+.topnav a {
+  text-decoration: none; 
+  float: left;
+  color: var(--dark);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: var(--secondary);
+  color: var(--light);
+}
+
+.topnav a.active {
+  background-color: var(--secondary);
+  color:var(--light);
+}
+
+.topnav a.visited{
+  color: var(--dark);
+  background-color: var(--primary);
 }
 
 h1 {
   color: var(--secondary);
-  font-family: var(--headerFont), Helvetica, sans-serif;
+  font-family: var(--headerFont);
 }
 
 h2 {
   color: var(--primary);
-  font-family: var(--headerFont), Helvetica, sans-serif;
+  font-family: var(--headerFont);
+  font-weight: 600;
 }
 
 p {
   color: var(--dark);
-  font-family: var(--paragraphFont), monospace;
+  font-family: var(--paragraphFont);
   font-size: 20px;
 }
 
 ul {
   color: var(--dark);
-  font-family: var(--paragraphFont), monospace;
+  font-family: var(--paragraphFont);
+}
+
+.accent{
+  color: var(--accent)
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
