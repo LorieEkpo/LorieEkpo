@@ -1,16 +1,52 @@
 {
-    "title": "Lorie-Ann Ekpo",
-    "welcomText": "",
-    "aboutheader": "",
-    "aboutText": "",
-    "skillHeader": "",
-    "skillText": "",
-    "projectHeader": "",
-    "projectText": "",
-    "skills": [
-        "",
-        "",
-        "",
-        ""
+    "language":[
+        {
+            "sv": [
+                {
+                    "title": "Lorie-Ann Ekpo",
+                    "welcomeText": "Välkommen till mitt projectportfolio!",
+                    "aboutheader": "Om mig",
+                    "aboutText": "Text om mig",
+                    "skillHeader": "Färdigheter",
+                    "skills": [
+                        "färdighet",
+                        "färdighet",
+                        "färdighet",
+                        "färdighet"
+                    ],
+                    "projectHeader": "Projekt",
+                    "projectText": "Beskrivning av projekt",
+                    "projects": [
+                        {
+                            "projectName": "Projektnamn",
+                            "projectDescription": "Projectbeskrivning"
+                        }
+                    ]
+                }  
+            ],
+            "en": [
+                {
+                    "title": "Lorie-Ann Ekpo",
+                    "welcomeText": "Hi, Welcome to my project portfolio!",
+                    "aboutheader": "About Me",
+                    "aboutText": "Text about me",
+                    "skillHeader": "Skills",
+                    "skills": [
+                        "skill",
+                        "skill",
+                        "skill",
+                        "skill"
+                    ],
+                    "projectHeader": "Projects",
+                    "projectText": "Description of project",
+                    "projects": [
+                        {
+                            "projectName": "Projekt name",
+                            "projectDescription": "Project description"
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
